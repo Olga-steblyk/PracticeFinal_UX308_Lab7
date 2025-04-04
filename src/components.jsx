@@ -1,4 +1,4 @@
-import {hello} from './functions.js';
+import {fahr2cel, hello} from './functions.js';
 
 function Question1(){
     return <section>
@@ -10,4 +10,14 @@ function Question1(){
     </section>;
 }
 
-export {Question1}
+function Question2(){
+    return <section>
+2. Write a function that converts from fahrenheit to celcius
+<h2>Results</h2>
+<p> fahrenheit2celcius(32) == "{fahr2cel(32)}"</p>
+<p> fahrenheit2celcius(70) == "{fahr2cel(70)}"</p>
+<p> fahrenheit2celcius(212) == "{fahr2cel(212)}"</p>
+    </section>;
+}
+
+export {Question1, Question2}
