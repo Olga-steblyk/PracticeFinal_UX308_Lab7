@@ -22,8 +22,8 @@ function Question2(){
 
 function Question3(){
     return <section>
-Given the&nbsp; width of a lawn in metres, length of a lawn in metres and the square metres cut per minute calculate the minutes it would take to mow that lawn. Test at least 3 lawn sizes
-<h2>Results</h2>
+2. Convert square feet to acres
+<h2>Results when converting </h2>
 <p> sqft2acre(32) == "{sqft2acre(32)}"</p>
 <p> sqft2acre(43560) == "{sqft2acre(43560)}"</p>
 <p> sqft2acre(87120) == "{sqft2acre(87120)}"</p>
@@ -32,8 +32,8 @@ Given the&nbsp; width of a lawn in metres, length of a lawn in metres and the sq
 
 function Question4(){
     return <section>
-4. Compute the air quality given an air quality index:
-<h2>Results</h2>
+3. Given the&nbsp; width of a lawn in metres, length of a lawn in metres and the square metres cut per minute calculate the minutes it would take to mow that lawn. Test at least 3 lawn sizes
+<h2>Results of cutting lawn grass</h2>
 <p> lawncutting(32,11,0) == "{lawncutting(32,11,2)}"</p>
 <p> lawncutting(32,11,0) == "{lawncutting(32,11,4)}"</p>
 <p> lawncutting(32,11,0) == "{lawncutting(32,11,3)}"</p>
@@ -67,7 +67,7 @@ function Question6(){
 function Question7(){
     return <section>
 5. yee_ha takes an integer parameter and returns a string
-<h2>Results of the Yeeha</h2>
+<h2>Results of slope calculations</h2>
 <p> slopecal(1,2,3,4) == "{slopecal(1,2,3,4)}"</p>
 <p> slopecal(2,2,6,8) == "{slopecal(2,2,6,8)}"</p>
 <p> slopecal(5,6,8,9) == "{slopecal(5,6,6,9)}"</p>
