@@ -11,7 +11,7 @@ function fahr2cel (fahr){
 function sqft2acre(sqft){
     
     let acre = sqft / 43560;
-    console.log("acre");
+    console.log(`acre`);
     return acre;
 
 }
