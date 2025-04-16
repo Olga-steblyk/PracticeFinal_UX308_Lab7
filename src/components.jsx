@@ -1,4 +1,4 @@
-import {fahr2cel, hello, sqft2acre, lawncutting, airqualityindex, yeeha, slopecal} from './functions.js';
+import {hello, fahr2cel, sqft2acre, lawncutting, airqualityindex, yeeha, slopecal} from './functions.js';
 
 function Question1(){
     return <section>
